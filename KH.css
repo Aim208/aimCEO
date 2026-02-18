@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?familiy=poppins:wght@300&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'poppins', sans-serif;
+}
+body{
+    background-color: red;
+}
+.judul-harga{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0;
+    color:#fff;
+}
+.wadah-harga{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.harga-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem 2rem 5rem;
+    background-color:gold;
+    margin: o 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s all linear;
+    margin-bottom: 2rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+.harga-item:hover{
+    transform: scale(2.02);
+    box-shadow: 0 1rem 1rem 0rem #753a93;
+}
+.offers li{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+.order-Btn{
+    border: none;
+    border: 2px solid skyblue;
+    background-color: transparent;
+    color: skyblue;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: .7rem 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+.order-Btn:hover{
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
